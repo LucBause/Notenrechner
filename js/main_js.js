@@ -25,7 +25,7 @@ function tfAuslesen ()
 
     ergebnis = summe / anzahlNoten; //ergebnis berechnen
 
-    document.getElementById("Ausgabe").innerHTML = ergebnis;  //ergebnis in html einfügen und auslesen lassen
+    document.getElementById("Ausgabe").innerHTML = ergebnis; //ergebnis in html einfügen und auslesen lassen
 
     if(ergebnis < 5)    //ergebnis je nach Wert einfärben
     {
